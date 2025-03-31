@@ -109,12 +109,12 @@ Response (Key Not Found):
 
 1. Build the Docker image:
    ```bash
-   docker build -t key-value-store:latest .
+   docker build -t key-value-cache:latest .
    ```
 
 2. Run the container:
    ```bash
-   docker run -p 7171:7171 key-value-store:latest
+   docker run -p 7171:7171 key-value-cache:latest
    ```
 
 3. The service will be available at http://127.0.0.1:7171
